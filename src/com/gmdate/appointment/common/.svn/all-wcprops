@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/common
+END
+Application.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/common/Application.java
+END
+Mylog.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/common/Mylog.java
+END
+MyAsyncTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/common/MyAsyncTask.java
+END
+Constant.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/common/Constant.java
+END
+MyTextWatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/common/MyTextWatcher.java
+END

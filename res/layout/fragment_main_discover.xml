@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_backgroup_actionbar"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@id/id_0"
+            style="@style/style_button_actionbar"
+            android:contentDescription="@string/content_notfound"
+            android:src="@drawable/bt_main_discover_are" />
+
+        <RadioGroup
+            android:id="@id/id_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@id/id_2"
+                style="@style/style_button_actionbar"
+                android:background="@drawable/selector_ck_segment_left"
+                android:button="@null"
+                android:paddingBottom="2dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="2dp"
+                android:text="@string/string_metting"
+                android:textColor="@drawable/selector_color_blue_checked_white"
+                android:textSize="22sp" />
+
+            <RadioButton
+                android:id="@id/id_3"
+                style="@style/style_button_actionbar"
+                android:background="@drawable/selector_ck_segment_right"
+                android:button="@null"
+                android:paddingBottom="2dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="2dp"
+                android:text="@string/string_felling"
+                android:textColor="@drawable/selector_color_blue_checked_white"
+                android:textSize="22sp" />
+        </RadioGroup>
+
+        <ImageButton
+            android:id="@id/id_4"
+            style="@style/style_button_actionbar"
+            android:contentDescription="@string/content_notfound"
+            android:src="@drawable/bt_main_discover_camera" />
+    </LinearLayout>
+
+    <com.xiaotian.framework.view.JazzyViewPager
+        android:id="@id/ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/color_backgroup_white" />
+
+</LinearLayout>

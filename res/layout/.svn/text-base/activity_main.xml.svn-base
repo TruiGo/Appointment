@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.app.FragmentTabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- TAB 主键 -->
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="0" />
+
+            <FrameLayout
+                android:id="@+id/realtabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <view
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                class="com.gmdate.appointment.activity.ActivityMain$MyTabWidget"
+                android:orientation="horizontal" >
+            </view>
+
+            <RadioGroup
+                android:id="@id/id_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:background="@color/color_backgroup_actionbar"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+
+                <RadioButton
+                    android:id="@id/id_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawableTop="@drawable/selector_main_ta"
+                    android:gravity="center"
+                    android:text="@string/string_main_ta"
+                    android:textColor="@drawable/selector_color_text_main"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@id/id_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawableTop="@drawable/selector_main_discover"
+                    android:gravity="center"
+                    android:text="@string/string_main_discover"
+                    android:textColor="@drawable/selector_color_text_main"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@id/id_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawableTop="@drawable/selector_main_message"
+                    android:gravity="center"
+                    android:text="@string/string_main_message"
+                    android:textColor="@drawable/selector_color_text_main"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@id/id_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawableTop="@drawable/selector_main_information"
+                    android:gravity="center"
+                    android:text="@string/string_main_information"
+                    android:textColor="@drawable/selector_color_text_main"
+                    android:textSize="18sp" />
+            </RadioGroup>
+        </LinearLayout>
+    </android.support.v4.app.FragmentTabHost>
+
+</FrameLayout>

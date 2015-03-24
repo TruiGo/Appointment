@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/view
+END
+ViewEmptyRelativeLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/view/ViewEmptyRelativeLayout.java
+END
+ViewLoadingRelativeLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/view/ViewLoadingRelativeLayout.java
+END
+ViewTopToolBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/view/ViewTopToolBar.java
+END
+ViewTopToolBarText.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/app/!svn/ver/25/android/Appointment/src/com/gmdate/appointment/view/ViewTopToolBarText.java
+END
+FixableImageGridView.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/view/FixableImageGridView.java
+END

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@id/ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.gmdate.appointment.activity.ActivityWelcome" />
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:padding="10dip" />
+
+    <LinearLayout
+        android:id="@id/id_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp" >
+
+        <Button
+            style="@style/ButtonWellcom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickRegister"
+            android:text="@string/string_register" />
+
+        <Button
+            style="@style/ButtonWellcom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:onClick="onClickLogin"
+            android:text="@string/string_login" />
+    </LinearLayout>
+
+</FrameLayout>

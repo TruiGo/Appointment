@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gmdate="http://schemas.android.com/apk/res/com.gmdate.appointment"
+    xmlns:xiaotian="http://schemas.framework.xiaotian.com/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_backgroup_white"
+    android:orientation="vertical" >
+
+    <com.gmdate.appointment.view.ViewTopToolBarText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        gmdate:background="@color/color_backgroup_actionbar"
+        gmdate:textTitle="@string/string_ta_information"
+        xiaotian:textLeft="@string/string_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/content_notfound"
+                    android:scaleType="centerInside" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@color/color_backgroup_black_transparent_msg"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            style="@style/style_text_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="20dp" />
+
+                        <TextView
+                            style="@style/style_text_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/content_notfound" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/content_notfound" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/content_notfound" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <!-- 我的照片 -->
+
+            <com.gmdate.appointment.view.FixableImageGridView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:horizontalSpacing="10dp"
+                android:padding="20dp"
+                android:verticalSpacing="10dp" >
+            </com.gmdate.appointment.view.FixableImageGridView>
+            <!-- 个人动态 -->
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/shape_listview_item_white"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/style_text_label"
+                    android:layout_gravity="left"
+                    android:text="@string/string_person_state" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|right"
+                    android:orientation="horizontal"
+                    android:weightSum="1" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/content_notfound" />
+                </LinearLayout>
+            </FrameLayout>
+            <!-- 个人资料 -->
+
+            <LinearLayout
+                style="@style/style_gridlayout_information"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/style_text_label"
+                        android:layout_gravity="left"
+                        android:text="@string/string_id" />
+
+                    <TextView
+                        style="@style/style_text_value"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="right" />
+                </LinearLayout>
+
+                <View style="@style/style_line_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/style_text_label"
+                        android:layout_gravity="left"
+                        android:text="@string/string_birthday" />
+
+                    <TextView
+                        style="@style/style_text_value"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="right" />
+                </LinearLayout>
+
+                <View style="@style/style_line_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/style_text_label"
+                        android:layout_gravity="left"
+                        android:text="@string/string_height" />
+
+                    <TextView
+                        style="@style/style_text_value"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="right" />
+                </LinearLayout>
+
+                <View style="@style/style_line_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/style_text_label"
+                        android:layout_gravity="left"
+                        android:text="@string/string_weight" />
+
+                    <TextView
+                        style="@style/style_text_value"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="right" />
+                </LinearLayout>
+
+                <View style="@style/style_line_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/style_text_label"
+                        android:layout_gravity="left"
+                        android:text="@string/string_jiguan" />
+
+                    <TextView
+                        style="@style/style_text_value"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="right" />
+                </LinearLayout>
+
+                <View style="@style/style_line_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/style_text_label"
+                        android:layout_gravity="left"
+                        android:text="@string/string_minzu" />
+
+                    <TextView
+                        style="@style/style_text_value"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="right" />
+                </LinearLayout>
+
+                <View style="@style/style_line_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/style_text_label"
+                        android:layout_gravity="left"
+                        android:text="@string/string_education" />
+
+                    <TextView
+                        style="@style/style_text_value"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="right" />
+                </LinearLayout>
+
+                <View style="@style/style_line_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/style_text_label"
+                        android:layout_gravity="left"
+                        android:text="@string/string_marry_status" />
+
+                    <TextView
+                        style="@style/style_text_value"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="right" />
+                </LinearLayout>
+
+                <View style="@style/style_line_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/style_text_label"
+                        android:layout_gravity="left"
+                        android:text="@string/string_family_background" />
+
+                    <TextView
+                        style="@style/style_text_value"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="right" />
+                </LinearLayout>
+
+                <View style="@style/style_line_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/style_text_label"
+                        android:layout_gravity="left"
+                        android:text="@string/string_industry" />
+
+                    <TextView
+                        style="@style/style_text_value"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="right" />
+                </LinearLayout>
+
+                <View style="@style/style_line_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/style_text_label"
+                        android:layout_gravity="left"
+                        android:text="@string/string_job_title" />
+
+                    <TextView
+                        style="@style/style_text_value"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="right" />
+                </LinearLayout>
+
+                <View style="@style/style_line_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/style_text_label"
+                        android:layout_gravity="left"
+                        android:text="@string/string_housing_situation" />
+
+                    <TextView
+                        style="@style/style_text_value"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="right" />
+                </LinearLayout>
+
+                <View style="@style/style_line_gray" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/model
+END
+Meeting.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/model/Meeting.java
+END
+Person.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/model/Person.java
+END
+Are.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/model/Are.java
+END
+AreProvince.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/model/AreProvince.java
+END
+Felling.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/model/Felling.java
+END

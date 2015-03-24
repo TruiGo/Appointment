@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xiaotian="http://schemas.framework.xiaotian.com/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/shape_listview_item_white_rectangle"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#5500FF00"
+            android:contentDescription="@string/content_notfound" >
+        </ImageView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="APP Name" />
+
+        <com.xiaotian.framework.view.FlipImageView
+            android:id="@+id/imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ck_zan_uncheck"
+            xiaotian:flipDrawable="@drawable/ck_zan_checked" />
+
+        <TextView
+            style="@style/style_text_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/style_text_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dfdfdfsfdsfsafdaf" />
+
+    <com.gmdate.appointment.view.FixableImageGridView
+        android:id="@id/GridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+
+</LinearLayout>

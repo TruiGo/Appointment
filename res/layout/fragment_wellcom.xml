@@ -1,0 +1,14 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gmdate.appointment.activity.WellcomActivity$PlaceholderFragment" >
+
+    <ImageView
+        android:id="@id/id_0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/content_notfound"
+        android:scaleType="fitXY" />
+
+</FrameLayout>

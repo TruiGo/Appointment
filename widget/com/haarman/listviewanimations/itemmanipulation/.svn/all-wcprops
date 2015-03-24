@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/app/!svn/ver/20/android/Appointment/widget/com/haarman/listviewanimations/itemmanipulation
+END
+OnDismissCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/app/!svn/ver/20/android/Appointment/widget/com/haarman/listviewanimations/itemmanipulation/OnDismissCallback.java
+END
+SwipeDismissListViewTouchListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/app/!svn/ver/20/android/Appointment/widget/com/haarman/listviewanimations/itemmanipulation/SwipeDismissListViewTouchListener.java
+END
+SwipeDismissAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/app/!svn/ver/20/android/Appointment/widget/com/haarman/listviewanimations/itemmanipulation/SwipeDismissAdapter.java
+END
+ExpandableListItemAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/app/!svn/ver/20/android/Appointment/widget/com/haarman/listviewanimations/itemmanipulation/ExpandableListItemAdapter.java
+END
+SwipeOnScrollListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/app/!svn/ver/20/android/Appointment/widget/com/haarman/listviewanimations/itemmanipulation/SwipeOnScrollListener.java
+END
+SwipeOnTouchListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/app/!svn/ver/20/android/Appointment/widget/com/haarman/listviewanimations/itemmanipulation/SwipeOnTouchListener.java
+END
+AnimateDismissAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/app/!svn/ver/20/android/Appointment/widget/com/haarman/listviewanimations/itemmanipulation/AnimateDismissAdapter.java
+END

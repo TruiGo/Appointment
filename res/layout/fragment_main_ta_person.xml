@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.gmdate.appointment"
+    xmlns:xiaotian="http://schemas.framework.xiaotian.com/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ProgressBar
+        style="@android:style/Widget.Holo.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <VideoView
+        android:id="@id/VideoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="invisible" >
+    </VideoView>
+
+    <ImageView
+        android:id="@id/ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/content_notfound"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@id/id_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_background_black_transparent_cycle"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <view
+            android:id="@id/FlipImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            class="com.gmdate.appointment.activity.FragmentMainTa$MyFlipImageView"
+            android:padding="10dp"
+            android:src="@drawable/ck_heart_blue"
+            xiaotian:flipDrawable="@drawable/ck_heart_red" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_line_gray" />
+
+        <TextView
+            android:id="@id/id_1"
+            style="@style/style_text_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_attend_ta"
+            android:textColor="@color/color_text_red"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shape_background_black_transparent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@id/id_2"
+                style="@style/style_text_label"
+                android:text="APP"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@id/id_3"
+                style="@style/style_text_label"
+                android:background="@drawable/shape_background_black_whiteborder"
+                android:drawableLeft="@drawable/vip_level_0"
+                android:drawablePadding="5dp"
+                android:padding="5dp"
+                android:text="经理级"
+                android:textColor="#FFFFFF" />
+
+            <com.xiaotian.framework.view.ViewToggleButton
+                android:id="@+id/id_star_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                custom:checkable="false"
+                custom:checkedImage="@drawable/ck_star_checked"
+                custom:uncheckImage="@drawable/ck_star_uncheck" />
+
+            <com.xiaotian.framework.view.ViewToggleButton
+                android:id="@+id/id_star_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                custom:checkable="false"
+                custom:checkedImage="@drawable/ck_star_checked"
+                custom:uncheckImage="@drawable/ck_star_uncheck" />
+
+            <com.xiaotian.framework.view.ViewToggleButton
+                android:id="@+id/id_star_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                custom:checkable="false"
+                custom:checkedImage="@drawable/ck_star_checked"
+                custom:uncheckImage="@drawable/ck_star_uncheck" />
+
+            <com.xiaotian.framework.view.ViewToggleButton
+                android:id="@+id/id_star_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                custom:checkable="false"
+                custom:checkedImage="@drawable/ck_star_checked"
+                custom:uncheckImage="@drawable/ck_star_uncheck" />
+
+            <com.xiaotian.framework.view.ViewToggleButton
+                android:id="@+id/id_star_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                custom:checkable="false"
+                custom:checkedImage="@drawable/ck_star_checked"
+                custom:uncheckImage="@drawable/ck_star_uncheck" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@id/id_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:contentDescription="@string/content_notfound"
+                android:padding="10dp"
+                android:src="@drawable/bt_play" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@id/id_5"
+                style="@style/style_text_label"
+                android:paddingTop="0dp"
+                android:text="APP"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@id/id_6"
+                style="@style/style_text_label"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="0dp"
+                android:text="APP"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@id/id_7"
+                style="@style/style_text_label"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="0dp"
+                android:text="APP"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@id/id_8"
+                style="@style/style_text_label"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="0dp"
+                android:text="APP"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

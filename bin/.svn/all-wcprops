@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/repos/app/!svn/ver/20/android/Appointment/bin
+END
+R.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/app/!svn/ver/25/android/Appointment/bin/R.txt
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/app/!svn/ver/25/android/Appointment/bin/AndroidManifest.xml
+END
+resources.ap_
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/app/!svn/ver/25/android/Appointment/bin/resources.ap_
+END
+Appointment.apk
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/app/!svn/ver/25/android/Appointment/bin/Appointment.apk
+END
+jarlist.cache
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/app/!svn/ver/25/android/Appointment/bin/jarlist.cache
+END
+classes.dex
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/app/!svn/ver/25/android/Appointment/bin/classes.dex
+END

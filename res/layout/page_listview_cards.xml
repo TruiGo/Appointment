@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xiaotian="http://schemas.framework.xiaotian.com/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:dividerHeight="10dp"
+        android:fadingEdge="none"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:scrollbarStyle="outsideOverlay" />
+
+    <com.gmdate.appointment.view.ViewLoadingRelativeLayout
+        android:id="@id/id_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        xiaotian:loadingText="@string/string_dead_loading"
+        xiaotian:showProgressBar="false" />
+
+    <com.gmdate.appointment.view.ViewEmptyRelativeLayout
+        android:id="@id/id_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        xiaotian:emptyText="@string/string_dead_empty" />
+
+</FrameLayout>

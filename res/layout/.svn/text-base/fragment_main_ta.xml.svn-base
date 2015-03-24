@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.gmdate.appointment"
+    xmlns:xiaotian="http://schemas.framework.xiaotian.com/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <view
+        android:id="@id/id_0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="net.simonvt.menudrawer.SlidingDrawer"
+        custom:mdContentBackground="@color/color_black"
+        custom:mdDrawOverlay="@android:color/transparent"
+        custom:mdDropShadowEnabled="false"
+        custom:mdMenuBackground="@color/color_backgroup_actionbar" >
+    </view>
+
+</FrameLayout>

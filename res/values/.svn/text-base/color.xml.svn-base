@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_text_black">#000000</color>
+    <color name="color_text_white">#FFFFFF</color>
+    <color name="color_text_gray">#6c6c70</color>
+    <color name="color_text_blue">#007aff</color>
+    <color name="color_text_red">#e44569</color>
+    <!--  -->
+    <color name="color_black">#000000</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_line_gray">#c9c8cc</color>
+    <!--  -->
+    <color name="bt_white_transparent">#33FFFFFF</color>
+    <color name="bt_back_transparent">#33000000</color>
+    <!--  -->
+    <color name="color_backgroup_black_transparent">#66000000</color>
+    <color name="color_backgroup_black_transparent_msg">#44000000</color>
+    <color name="color_backgroup_black">#000000</color>
+    <color name="color_backgroup_white">#ededf2</color>
+    <color name="color_backgroup_actionbar">#252b31</color>
+    <!--  -->
+    <color name="holo_blue">#FF33E5B5</color>
+    <color name="md__transparent">#00000000</color>
+    <color name="md__defaultBackground">#FF555555</color>
+
+</resources>

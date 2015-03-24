@@ -1,0 +1,28 @@
+10
+
+dir
+20
+http://192.168.1.99:8888/repos/app/android/Appointment/res/raw
+http://192.168.1.99:8888/repos/app
+
+
+
+2015-03-20T03:22:36.410580Z
+20
+tianrui
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+679dff03-0aa4-4eda-89e7-e8d6e35b17cc
+

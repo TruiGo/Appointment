@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/app/!svn/ver/20/android/Appointment/widget/com/viewpagerindicator
+END
+CirclePageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/app/!svn/ver/20/android/Appointment/widget/com/viewpagerindicator/CirclePageIndicator.java
+END
+PageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/app/!svn/ver/20/android/Appointment/widget/com/viewpagerindicator/PageIndicator.java
+END
+LinePageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/app/!svn/ver/20/android/Appointment/widget/com/viewpagerindicator/LinePageIndicator.java
+END
+TabPageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/app/!svn/ver/20/android/Appointment/widget/com/viewpagerindicator/TabPageIndicator.java
+END
+IcsLinearLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/app/!svn/ver/20/android/Appointment/widget/com/viewpagerindicator/IcsLinearLayout.java
+END
+TitlePageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/app/!svn/ver/20/android/Appointment/widget/com/viewpagerindicator/TitlePageIndicator.java
+END
+IconPageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/app/!svn/ver/20/android/Appointment/widget/com/viewpagerindicator/IconPageIndicator.java
+END
+IconPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/app/!svn/ver/20/android/Appointment/widget/com/viewpagerindicator/IconPagerAdapter.java
+END
+UnderlinePageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/app/!svn/ver/20/android/Appointment/widget/com/viewpagerindicator/UnderlinePageIndicator.java
+END

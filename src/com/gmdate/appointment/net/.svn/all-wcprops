@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/net
+END
+BaseRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/net/BaseRequest.java
+END
+VCRDownload.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/net/VCRDownload.java
+END
+RequestCommon.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/net/RequestCommon.java
+END
+HttpResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/net/HttpResponse.java
+END
+HttpException.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/net/HttpException.java
+END
+Constant.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/net/Constant.java
+END
+RequestPerson.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/net/RequestPerson.java
+END
+RequestAsyncTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/app/!svn/ver/20/android/Appointment/src/com/gmdate/appointment/net/RequestAsyncTask.java
+END

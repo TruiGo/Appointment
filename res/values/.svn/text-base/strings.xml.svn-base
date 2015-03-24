@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">名仕之约</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Activity Default -->
+    <string name="content_notfound">content notfound</string>
+    <!-- Activity String -->
+    <string name="string_register">注册</string>
+    <string name="string_login">登录</string>
+    <string name="string_logout">登出</string>
+    <string name="string_main_ta">TA</string>
+    <string name="string_main_discover">发现</string>
+    <string name="string_main_message">消息</string>
+    <string name="string_main_information">我</string>
+    <string name="string_search_condition">随缘条件切换</string>
+    <string name="string_sex">性别</string>
+    <string name="string_are">区域</string>
+    <string name="string_search">搜索</string>
+    <string name="string_are_default">不限</string>
+    <string name="string_dead_loading">正在玩命加载数据&#8230;</string>
+    <string name="string_dead_empty">神啊,数据去哪儿了?</string>
+    <string name="string_metting">聚会</string>
+    <string name="string_felling">随感</string>
+    <string name="string_attend_ta">关注TA</string>
+    <string name="string_loading">加载中&#8230;</string>
+    <string name="string_youxuan">優選</string>
+    <string name="string_back">返回</string>
+    <string name="string_ta_information">TA的资料</string>
+    <string name="string_person_state">个人动态</string>
+    <string name="string_person_information">个人资料</string>
+    <string name="string_id">ID</string>
+    <string name="string_birthday">出生年月</string>
+    <string name="string_height">身高</string>
+    <string name="string_weight">体重</string>
+    <string name="string_jiguan">籍贯</string>
+    <string name="string_minzu">民族</string>
+    <string name="string_education">学历</string>
+    <string name="string_marry_status">婚姻状况</string>
+    <string name="string_family_background">家庭背景</string>
+    <string name="string_industry">所属行业</string>
+    <string name="string_job_title">工作职位</string>
+    <string name="string_housing_situation">购房情况</string>
+    <string name="string_caring_situation">购车情况</string>
+    <string name="string_personal_assets">个人资产</string>
+
+    <string-array name="string_array_sex">
+        <item>女</item>
+        <item>男</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+
+    <string name="md__drawerOpenIndicatorDesc">Close drawer</string>
+    <string name="md__drawerClosedIndicatorDesc">Open drawer</string>
+
+</resources>
